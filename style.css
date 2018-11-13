@@ -1,0 +1,53 @@
+#serce {
+  background-color: red;
+  width: 100px;
+  height:100px;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  transform:rotate(225deg);
+}
+
+#serce::after {
+  content:"";
+  background-color: red;
+  width: 100px;
+  height:100px;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:50%;
+  right:0;
+  border-radius:50%;
+  
+}
+
+
+#serce::before {
+  content:"";
+  background-color: red;
+  width: 100px;
+  height:100px;
+  position:absolute;
+  top:50%;
+  bottom:0;
+  left:0;
+  right:0;
+  border-radius:50%;}
+
+#Krystian{
+  background-color: PINK;
+  width:50px;
+  height:50px;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  
+}
+
